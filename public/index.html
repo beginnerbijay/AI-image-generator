@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>AiImage Generator</title>
+</head>
+<body>
+    <div id="container">
+        <section id="form_container">
+            <form id="form">
+                <h1 id="heading">AI Image Generater</h1>
+                <input type="text" id="text" placeholder="write an image description">
+                <select id="size" name="size">
+                    <option value="small">small</option>
+                    <option value="medium">medium</option>
+                    <option value="large">large</option>
+                </select>
+                <button type="submit" id="btn">Generate</button>
+            </form>
+        </section>
+        <section id="image_container">
+            <div class="loader"></div>
+                <img src="" id="image">
+        </section>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
