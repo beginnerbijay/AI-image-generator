@@ -43,7 +43,6 @@
 #image_container{
     display: flex;
     justify-content: center;
-    width: 100vw !important;
 }
 .loader {
     border: .3rem solid #f3f3f3; /* Light grey */
