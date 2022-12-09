@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99vw;
+    width: 100vw;
     height: 20rem;
     background-color: #fafafc;
     overflow: hidden;
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: center;
     width: 100vw !important;
-    overflow-x: scroll;
+    overflow: scroll;
 }
 .loader {
     border: .3rem solid #f3f3f3; /* Light grey */
